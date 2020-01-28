@@ -4,7 +4,8 @@ const app = express();
 const server = http.createServer(app);
 const PORT = 3003;
 
-const es6Renderer = require('express-es6-template-engine');                app.engine('html', es6Renderer);
+const es6Renderer = require('express-es6-template-engine');
+app.engine('html', es6Renderer);
 app.set('views', '');
 app.set('view engine', 'html');
 const path = require('path');
