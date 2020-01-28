@@ -8,11 +8,11 @@ const es6Renderer = require('express-es6-template-engine');                app.e
 app.set('views', '');
 app.set('view engine', 'html');
 const path = require('path');
-app.use(express.static(path.join(__dirname, "/")));
+app.use(express.static(__dirname));
 
 app.get('/', (req, res)=> {
-    res.render('index2')
-})
+    res.render('index2');
+});
 
 server.listen(PORT, ()=>{
     `Now listening on port ${PORT}`
