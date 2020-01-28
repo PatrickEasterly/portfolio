@@ -14,6 +14,6 @@ app.get('/', (req, res)=> {
     res.render('index2')
 })
 
-app.listen(PORT, ()=>{
+server.listen(PORT, ()=>{
     `Now listening on port ${PORT}`
 });
