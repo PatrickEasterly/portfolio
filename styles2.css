@@ -134,15 +134,18 @@ ul * {
 
 .work-pics {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    flex-wrap: wrap;
     text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .work-card {
-    max-width: 40%;
+    max-width: 70%;
 }
+
+
 .work-card img {
     background-image: linear-gradient(to bottom, rgb(2, 2, 43) , rgb(29, 29, 201));
     border: 0.1em solid transparent;
@@ -166,7 +169,10 @@ ul * {
 }
 
 .work-sub i {
-    font-size: 40px;
+    font-size: 2rem;
+}
+.work-sub p {
+    font-size: 0.7em;
 }
 
 .main {
@@ -248,6 +254,12 @@ i {
     .myname {
         font-size: 1.8em;
         /* font-weight: bolder; */
+    }
+    .work-pics {
+        flex-direction: row;
+    }
+    .work-card {
+        max-width: 45%;
     }
 
 }
