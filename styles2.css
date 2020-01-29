@@ -12,16 +12,12 @@ body {
 
 
 .nav {
-    background-color: rgb(33, 33, 34);
     padding: 0.5em;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     position: fixed;
     width: 100%;
     height: 5em;
-    border-bottom: 0.2em solid transparent;
-    border-image: linear-gradient(to right, rgb(214, 182, 0) , rgb(29, 29, 201));
-    border-image-slice: 1;
 }
 .navright {
     display: flex;
@@ -40,6 +36,7 @@ body {
 .myname {
     font-size: 1.3em;
     font-weight: bolder;
+    display: none;
 }
 
 .subname {
@@ -86,7 +83,9 @@ ul * {
     color: white;
     /* position: absolute; */
     width: 100%;
-    padding: 200px 0px;
+    padding: 55% 0;
+    /* padding: 8em 0; */
+    /* padding: 130px 0px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -181,7 +180,7 @@ ul * {
 }
 
 .profile {
-    max-width: 150px;
+    max-width: 100px;
 }
 
 .cont-main {
@@ -221,10 +220,32 @@ i {
     /* width: 100%; */
 }
 
+.contact-card {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 2em;
+}
+
+.contact-card i {
+    font-size: 40px;
+}
+
+.foot {
+    background-color: rgb(33, 33, 34);
+    padding: 5rem;
+}
+
 @media screen and (min-width: 628px) {
+    .myname {
+        display: inline-block;
+    }
 
     .nav {
-        
+        background-color: rgb(33, 33, 34);
+        border-bottom: 0.2em solid transparent;
+        border-image: linear-gradient(to right, rgb(214, 182, 0) , rgb(29, 29, 201));
+        border-image-slice: 1;
     }
     .navitemsright {
         display: flex;
