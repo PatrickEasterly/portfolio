@@ -5,11 +5,11 @@
     color: rgb(33, 33, 34);
     font-family: Arial, Helvetica, sans-serif;
 }
+
 body {
     display: flex;
     flex-direction: column;
 }
-
 
 .nav {
     padding: 0.5em;
@@ -28,14 +28,42 @@ body {
 .navitemsright {
     display: none;
 }
-.icon {
-    /* margin: 1.5em 1em; */
+
+.navitemsrightopen {
+    opacity: 95% !important;
+    /* position: relative;
+    z-index: -1; */
+    background-color: black;
+    flex-direction: column;
+    padding-inline-start: 0;
+    margin-top: 30%;
+    margin-left: -100%;
+    margin-bottom: -200%;
+    width: 200%;
+    display: flex;
 }
 
-.fa-bars {
-    color: blueviolet !important;
-    margin: 1.5em -1em;
-    font-size: 35px;
+.navitemsrightopen a {
+    font-size: 30px;
+}
+
+.navitemsrightopen li {
+    width: 90%;
+    height: 100%;
+    margin: 0;
+}
+
+.navitemsrightopen li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.icon {
+    /* margin: 1.5em 1em; */
 }
     
 .myname {
@@ -71,6 +99,12 @@ hr {
     /* text-align: center; */
 }
 
+.fa-bars {
+    color: blueviolet !important;
+    padding: 0 !important;
+    font-size: 35px;
+}
+
 ul {
     display: flex;
     justify-content: space-around;
@@ -88,7 +122,7 @@ ul * {
     color: white;
     /* position: absolute; */
     width: 100%;
-    padding: 55% 0;
+    padding: 45% 0;
     /* padding: 8em 0; */
     /* padding: 130px 0px; */
     display: flex;

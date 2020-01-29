@@ -23,7 +23,7 @@
         <p class="myname">Patrick Easterly</p>
     </div>
     <div class="navright">
-        <ul class="navitemsright">
+        <ul class="navitemsright navitemsrightopen">
             <li><a href="#About">About</a></li>
             <li><a href="#Skills">Skills</a></li>
             <li><a href="#Portfolio">Portfolio</a></li>
@@ -122,5 +122,18 @@
     <div class="foot">
 
     </div>
+    <script>
+        const but = document.querySelector('ul');
+        const toggleNav = () => {
+            
+            if(but.className === "navitemsright") {
+                but.className = "navitemsright navitemsrightopen";
+            } else if (but.className==="navitemsright navitemsrightopen"){
+                but.className = "navitemsright";
+            }
+            // console.log('f')
+        }
+        toggleNav();
+    </script>
 </body>
 </html>
