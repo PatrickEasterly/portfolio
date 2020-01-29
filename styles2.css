@@ -99,10 +99,18 @@ hr {
     /* text-align: center; */
 }
 
+.navleft a {
+    /* height: 34px;
+    width: 34px; */
+    padding: 1px;
+    /* background-color: black; */
+}
+
 .fa-bars {
-    color: blueviolet !important;
     padding: 0 !important;
-    font-size: 35px;
+    color: black !important;
+    padding: 1px !important;
+    font-size: 30px;
 }
 
 ul {
