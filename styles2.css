@@ -285,6 +285,14 @@ i {
     background-color: rgb(33, 33, 34);
     padding: 5rem;
 }
+i:hover {
+    color: rgb(3, 3, 182);
+    transition: 0.3s;
+}
+li a:hover {
+    color: rgb(3, 3, 182);
+    transition: 0.3s;
+}
 
 @media screen and (min-width: 628px) {
     .cont-top {
