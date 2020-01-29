@@ -10,6 +10,9 @@ body {
     display: flex;
     flex-direction: column;
 }
+a {
+    text-decoration: none;
+}
 
 .nav {
     padding: 0.5em;
@@ -315,6 +318,9 @@ i {
         color: white;
         padding: 5em;
     }
+    .contact-card a i {
+        font-size: 70px;
+    }
 }
 
 @media screen and (min-width: 743px) {
@@ -332,5 +338,7 @@ i {
     .work-card {
         max-width: 45%;
     }
-
+    .profile {
+        max-width: 150px;
+    }
 }

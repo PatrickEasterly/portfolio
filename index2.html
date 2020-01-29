@@ -17,7 +17,8 @@
 <body>        
     <div class="nav">
     <div class="navleft">
-        <a href="javascript:void(0);" class="icon burgerstack" onclick="toggleNav()">
+        <a class="icon burgerstack" onclick="toggleNav()">
+            <!-- href="javascript:void(0);"  -->
             <i class="fa fa-bars"></i>
         </a>
         <p class="myname">Patrick Easterly</p>
@@ -71,12 +72,16 @@
 
             </div>
             <div class="work" id="Portfolio">
-                <h1>Work / portfolio</h1>
+                <h1>My Work</h1>
                 <hr>
                 <div class="work-pics">
                     <div class="work-card">
                         <h2>Cuppy</h2>
                         <img src="images/cuppyFirst.jpg" alt="cuppy app photo">
+                        <p>Cuppy keeps track of the coffee you drink, from seed to cup. Hosted on AWS server, using PostgreSQL for persistence, Node.js for templating, server queries, sessions, user validation; and Express.js for routing.
+                            <br>
+                            <hr>
+                        </p>
                         <div class="work-sub">
                             <div class="work-sub-item">
                                 <i class="fas fa-external-link-alt"></i>
@@ -89,8 +94,33 @@
                         </div>
                     </div>
                     <div class="work-card">
-                        <h2>Woof</h2>
+                        <h2>G2GRN</h2>
+                        <img src="images/g2grn.jpg" alt="pro pet care photo">
+                        <p>
+                        When a user clicks, the Google Maps, Google Places, and SkyScanner APIs work to give the user the soonest flight from the nearest airport. 
+                        <br>
+                        <hr>
+                        </p>
+                        <div class="work-sub">
+                            <div class="work-sub-item">
+                                <i class="devicon-github-plain"></i>
+                            <p>View on github</p>
+                            </div>
+                            <div class="work-sub-item">
+                                <i class="fas fa-external-link-alt"></i>
+                            <p>View live</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-card">
+                        <h2>Woof (speculative)</h2>
+                        <p></p>
                         <img src="images/ppcare.jpg" alt="pro pet care photo">
+                        <p>A client management app for a friend's pet sitting business. 
+                            <br> In production, stay tuned...
+                        <br>
+                    <hr>
+                </p>
                         <div class="work-sub">
                             <div class="work-sub-item">
                                 <i class="devicon-github-plain"></i>
@@ -110,9 +140,22 @@
                 <h1>Contact</h1>
                 <hr>
                     <div class="contact-card">
-                        <!-- <i class="devicon-github-plain-wordmark"></i> -->
-                        <i class="devicon-github-plain"></i>  <!-- colored -->
-                        <i class="fas fa-envelope"></i>
+                        <!-- </i> -->
+                        <a target="blank" href="https://github.com/PatrickEasterly">
+                            <i class="devicon-github-plain-wordmark"></i>
+                        </a target="blank">
+                        
+                        <a target="blank" href="mailto:pateast678@gmail.com">
+                            <i class="fas fa-envelope">
+                                <p>pateast678@gmail.com</p>
+                            </i>
+                        </a>
+                        
+                        <a target="blank" href="mailto:pateast678@gmail.com">
+                            <i class="fab fa-linkedin">
+                                <p><strong>Linkedin</strong></p>
+                            </i>
+                        </a>
                     </div>
                 
             </div>
