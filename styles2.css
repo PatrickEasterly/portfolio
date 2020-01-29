@@ -29,10 +29,15 @@ body {
     display: none;
 }
 .icon {
-    margin: 1.5em 1em;
+    /* margin: 1.5em 1em; */
 }
 
-
+.fa-bars {
+    color: blueviolet !important;
+    margin: 1.5em -1em;
+    font-size: 35px;
+}
+    
 .myname {
     font-size: 1.3em;
     font-weight: bolder;
@@ -237,6 +242,9 @@ i {
 }
 
 @media screen and (min-width: 628px) {
+    .cont-top {
+        padding: 12em 0;
+    }
     .myname {
         display: inline-block;
     }
