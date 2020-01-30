@@ -176,6 +176,27 @@
             // console.log('f')
         }
         toggleNav();
+        const closeNav = () => {
+            // if (but.clientWidth) {}
+        }
+        let mql = window.matchMedia('(max-width: 628px)');
+        function screenTest(e){
+            if(e.matches){
+                console.log('S');
+                
+            } else {
+                console.log('L')
+            }
+        }
+        mql.addListener(screenTest)
+        // w = document.documentElement.clientWidth || document.body.clientWidth || window.innerWidth;
+        // console.log(w)
+        // let targetWidth = 612;
+        // if(w<targetWidth) {
+        //     console.log('FUCK')
+        // }
+        
+
     </script>
 </body>
 </html>
