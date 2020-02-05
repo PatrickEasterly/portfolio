@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta property=“og:title” content="Patrick Easterly">
+    <!-- <meta property=“og:image” content=“thumbnail to be shown.jpg”> -->
+    <meta property=“og:description” content="Site for Patrick Easterly, web developer/software engineer/programmer extraordinaire">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Patrick Easterly</title>
@@ -182,13 +185,11 @@
         let mql = window.matchMedia('(max-width: 628px)');
         function screenTest(e){
             if(e.matches){
-                console.log('S');
                 for(let child of buttons) {
                 child.children[0].attributes[2].value = 'toggleNav()';
         }
                 
             } else {
-                console.log('L')
                 for(let child of buttons) {
                 child.children[0].attributes[2].value = '';
         }
