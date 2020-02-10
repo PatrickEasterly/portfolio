@@ -162,7 +162,7 @@ ul * {
     /* background-color: black; */
     color: white;
     padding: 1em;
-    height: 100vh;
+    height: 70vh;
 }
 
 .about-me-text {
@@ -199,6 +199,15 @@ ul * {
     max-width: 70%;
 }
 
+.doge {
+    /* height: 100px; */
+    width: 5rem;
+}
+.doge img {
+    /* height: 100%; */
+    width: 100%;
+    transform: rotate(90deg);
+}
 
 .work-card img {
     background-image: linear-gradient(to bottom, rgb(2, 2, 43) , rgb(29, 29, 201));
