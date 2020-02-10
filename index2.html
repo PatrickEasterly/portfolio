@@ -197,6 +197,21 @@
         }
         mql.addListener(screenTest)
         
+        function is_touch_device() {  
+            try {  
+                document.createEvent("TouchEvent");  
+                return true;  
+            } catch (e) {  
+                return false;  
+            }  
+        }
+        function is_touch_device1() {
+            return 'ontouchstart' in window;
+        }
+
+console.log(is_touch_device1());
+
+console.log(is_touch_device());
         
 
     </script>
